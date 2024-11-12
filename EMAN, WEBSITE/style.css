@@ -11,14 +11,22 @@
     font-family: sans-serif;
 }
 .navbar{
-    width: 1380px;
     display: flex;
     margin: auto;
     padding: 15px 0; 
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo{
+.navbar-main{
+    width: 1380px;
+    display: flex;
+    margin: auto;
+    padding: 15px 0; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar-main .logo{
     width: 170px;
     cursor: pointer;
     margin-top: 1%;
