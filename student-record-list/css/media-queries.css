@@ -1,0 +1,17 @@
+@media (max-width: 1150px) {
+    section{
+        max-width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 800px) {
+    .filter-select-container select{
+        width: 5rem;
+    }
+
+    .student-form-inputs input{
+        width: 7rem;
+    }
+}

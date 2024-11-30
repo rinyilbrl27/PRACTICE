@@ -1,0 +1,74 @@
+select {
+    max-width: 25%;
+    min-width: 10%;
+    width: 8rem;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+select:focus {
+    border-color: #000000;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    min-width: 10%;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    background-color: #ffffff;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #000000;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.search-container input {
+    width: 100%;
+    border: 2px solid #ffffff;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.search-container input:focus {
+    border-color: #000000;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+.student-form-subjects input {
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.category-form input {
+    margin-bottom: 1rem;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    background-color: #f9f9fb;
+    transition: all 0.3s ease;
+}
+
+.category-form input:focus {
+    border-color: #000000;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
